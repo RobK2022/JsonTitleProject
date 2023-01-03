@@ -8,6 +8,7 @@ public class Main {
 
         String json = "{\"brand\":\"Jeep\", \"doors\": 3}";
 
+        // Added new gson object
         Gson gson = new Gson();
 
         Car car = gson.fromJson(json, Car.class);
